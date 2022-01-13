@@ -24,6 +24,8 @@ class App extends Component {
 
 handleSubmit = e => {
   e.preventDefault()
+
+  //Use at least one API
   
   fetch('https://verifier.meetchopra.com/verify/{{email_address}}token=db57c9ba3df5742b2082d22910f04e0341055b2a6779521a1bd5857bf24bb457')
   .then(response => response.json())
