@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import EmailInfo from './Components/Email-info';
 
 //https://verifier.meetchopra.com/verify/{{email_address}}
-
+// https://eva.pingutil.com/
 class App extends Component {
   state = {
     // baseUrl: 'https://verifier.meetchopra.com/verify/?',
