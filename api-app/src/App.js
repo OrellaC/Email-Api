@@ -4,6 +4,7 @@ import EmailInfo from './Components/Email-info';
 
 //https://verifier.meetchopra.com/verify/{{email_address}}
 // https://eva.pingutil.com/
+//https://docs.disify.com/#mass-emails-amp-domains
 class App extends Component {
   state = {
     // baseUrl: 'https://verifier.meetchopra.com/verify/?',
