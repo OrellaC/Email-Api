@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+//API used https://eva.pingutil.com/
 class App2 extends Component {
     state = {
         status: "",
@@ -46,7 +46,11 @@ class App2 extends Component {
                                     <p>Domain: {desc.data[0].domain}</p>
                                     <p>Valid Syntax: {desc.data[0].valid_syntax}</p>
                                     <p>Disposable: {desc.data[0].disposable}</p>
-                                    
+                                    <p>Webmail: {desc.data[0].webmail}</p>
+                                    <p>Deliverable: {desc.data[0].deliverable}</p>
+                                    <p>Catch All: {desc.data[0].catch_all}</p>
+                                    <p>Gibberish: {desc.data[0].gibberish}</p>
+                                    <p>Spam: {desc.data[0].spam}</p>
                                     </div>
                             )
                         })
